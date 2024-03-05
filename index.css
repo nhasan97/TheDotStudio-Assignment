@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.why-choose-us-container {
+  font-family: Gotham;
+  max-width: 1070px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0px;
+  border: 1px solid #000;
+}
+
+.why-choose-us-title-container {
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.why-choose-us-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: -3%;
+}
+
+.why-choose-us-title > span {
+  color: #11498c;
+}
