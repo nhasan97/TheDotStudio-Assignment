@@ -1,7 +1,15 @@
+:root {
+  font-size: 62.5%;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
 }
 
 .why-choose-us-container {
@@ -19,12 +27,12 @@
 
 .why-choose-us-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 4.8rem;
   line-height: 57.6px;
   letter-spacing: -3%;
 }
 
-.why-choose-us-title > span {
+.why-choose-us-title>span {
   color: #11498c;
 }
 
@@ -44,6 +52,7 @@
 }
 
 .card-img {
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -56,17 +65,17 @@
   justify-content: end;
   align-items: center;
   text-align: center;
-  padding-bottom: 28px;
+  padding: 28px 40px;
   position: absolute;
   bottom: 0;
   left: 0;
-  border-radius: 0px 0px 8px 8px;
+  border-radius: 8px;
   transition: height 0.3s ease-in-out;
 }
 
-.card-overlay > h3 {
+.card-overlay>h3 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 2.8rem;
   line-height: 30.8px;
   letter-spacing: -3%;
   color: white;
@@ -75,7 +84,7 @@
   transition-delay: 0.05s;
 }
 
-.card-overlay > h3 span {
+.card-overlay>h3 span {
   color: #ffc758;
 }
 
@@ -104,10 +113,10 @@
   position: absolute;
 }
 
-.card-hover-overlay-content > h3 {
+.card-hover-overlay-content>h3 {
   color: white;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 3.2rem;
   line-height: 35.2px;
   letter-spacing: -5%;
   z-index: 10;
@@ -116,14 +125,14 @@
   transition: 0.3s ease-in-out;
 }
 
-.card-hover-overlay-content > h3 span {
+.card-hover-overlay-content>h3 span {
   color: #ffc758;
 }
 
-.card-hover-overlay-content > p {
+.card-hover-overlay-content>p {
   color: white;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2rem;
   line-height: 26px;
   letter-spacing: -5%;
   z-index: 10;
@@ -133,24 +142,20 @@
   transition-delay: 0.1s;
 }
 
-/* ////////////////////////////////////////////////////////////////////// */
+/*  -------------------- hover effect --------------------  */
 
 .card:hover .card-overlay::before {
   width: 100%;
-  height: 85%;
+  height: 84%;
 }
 
-.card:hover .card-overlay > h3 {
+.card:hover .card-overlay>h3 {
   transform: translateY(-50%);
   opacity: 0;
 }
 
-.card:hover .card-hover-overlay-content > h3 {
-  transform: translateY(0%);
-  opacity: 1;
-}
-
-.card:hover .card-hover-overlay-content > p {
+.card:hover .card-hover-overlay-content>h3,
+.card:hover .card-hover-overlay-content>p {
   transform: translateY(0%);
   opacity: 1;
 }
