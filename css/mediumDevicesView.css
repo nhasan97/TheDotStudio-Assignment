@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .why-choose-us-container {
         /* padding: 64px 0px; */
